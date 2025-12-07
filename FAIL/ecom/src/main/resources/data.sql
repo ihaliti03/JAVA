@@ -1,0 +1,9 @@
+/*
+
+MySQL
+
+CREATE DATABASE IF NOT EXISTS Ecom;
+
+TRUNCATE TABLE product;
+
+ */

@@ -1,0 +1,10 @@
+{
+  "trackerPort": 8080,
+  "fileName": "testfile.txt",
+  "chunkSize": 262144,
+  "fileSize": 20,
+  "trackerIP": "127.0.0.1",
+  "totalChunks": 1,
+  "chunkHashes": ["7c51e821ef7f4dba683b7083e3f4c28d32a033016ce7769b8e238eeca5ba767e"],
+  "fileID": "83ba4cb1a52afbb7"
+}

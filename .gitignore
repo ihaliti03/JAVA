@@ -1,0 +1,19 @@
+# Ignore ALL .venv folders in ANY subdirectory
+**/.venv/
+
+# Ignore ALL .idea folders in ANY subdirectory  
+**/.idea/
+
+# Ignore ALL .gitattributes files in ANY subdirectory
+**/.gitattributes
+
+# Also ignore these common patterns
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/.env
+**/.env.local
+**/node_modules/
+**/.editorconfig
+**/env.example
+**/.mvn/

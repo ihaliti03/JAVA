@@ -1,0 +1,40 @@
+.welcome-photo {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    background-image: url('/public/images/plane.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome-info {
+    font-size: 30px; /* Large font size */
+    font-family: 'Arial', sans-serif; /* A pleasant, readable font */
+    color: #ffffff; /* White color, change as needed */
+    text-shadow: 2px 2px 4px #000000; /* Black shadow for better readability */
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Style for the buttons */
+button {
+    font-size: 30px; /* Increase font size */
+    padding: 15px 30px; /* Add more padding for width and height */
+    margin: 10px; /* Add some space around each button */
+    border: none; /* Optional: removes the border */
+    border-radius: 5px; /* Optional: rounds the corners */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    background-color: #007bff; /* Background color of the button */
+    color: white; /* Color of the text */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for the buttons */
+  button:hover {
+    background-color: #0056b3; /* Darken the button slightly when hovered */
+  }
